@@ -1,7 +1,5 @@
 
-import javax.management.RuntimeErrorException;
-
-public class DLL<T> implements Iterable<T>{
+public class DLL<T>{
 
     private int size;
     private Node <T> tail = null;
